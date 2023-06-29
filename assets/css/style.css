@@ -1,5 +1,11 @@
 /* IMPOSTAZIONI GENERALI */
-
+body {
+  margin: 0;
+  background-image: url(../img/sfondo.png);
+  max-width: fit-content;
+  background-repeat: repeat-y;
+  width: 450px;
+}
 /* HEADER */
 
 /* MAIN */
