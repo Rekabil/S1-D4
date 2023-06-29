@@ -35,14 +35,30 @@ main {
   background: #fffdfd;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.482);
   font-size: 3vw;
+  max-width: 100%;
+  padding: 5%;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+.evidenzia {
+  color: magenta;
+}
+.code {
+  background: lightgrey;
+  border: 2px solid gray;
+  border-radius: 15%;
+}
 main iframe {
   max-width: 100%;
 }
 
 /* TABELLE */
+main table {
+  width: 100%;
+}
+.tabletitle th {
+  background: lightskyblue;
+}
 
 /* FORM */
 
