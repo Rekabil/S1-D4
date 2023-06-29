@@ -7,6 +7,7 @@ body {
   margin: 5%;
   font-size: 2vw;
 }
+
 /* HEADER */
 header {
   text-align: center;
@@ -20,14 +21,15 @@ header {
   border: 15;
   padding: 20px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.482);
+  color: white;
+}
+nav dl dt > a:visited,
+a:link {
+  color: white;
 }
 header img {
   width: 40vw;
   height: auto;
-}
-
-header nav dt {
-  color: #fffdfd;
 }
 
 /* MAIN */
@@ -74,4 +76,23 @@ main table {
 }
 /* ELEMENTI NELL' ASIDE */
 
+article dl {
+  background: lightgray;
+  border: 3px solid gray;
+}
+.date {
+  text-align: right;
+}
+
 /* FOOTER */
+footer {
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(4deg, rgba(2, 0, 36, 1) 0%, rgba(38, 38, 236, 1) 80%, rgba(0, 212, 255, 1) 100%);
+  color: white;
+  border: 3px solid gray;
+}
+footer > a:visited,
+a:link {
+  color: magenta;
+}
