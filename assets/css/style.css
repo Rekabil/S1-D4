@@ -1,8 +1,9 @@
 /* IMPOSTAZIONI GENERALI */
 body {
   background-image: url(../img/sfondo.png);
-  background-size: contain;
+  background-size: 140%;
   background-repeat: repeat-y;
+  background-position: center;
   max-width: 100%;
   margin: 5%;
   font-size: 2vw;
