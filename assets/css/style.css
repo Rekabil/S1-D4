@@ -51,6 +51,9 @@ main {
 main iframe {
   max-width: 100%;
 }
+.centered {
+  text-align: center;
+}
 
 /* TABELLE */
 main table {
@@ -61,7 +64,14 @@ main table {
 }
 
 /* FORM */
-
+.newsletter {
+  background: lightgray;
+  width: 100%;
+}
+.newsletter button {
+  background-color: blue;
+  color: white;
+}
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
